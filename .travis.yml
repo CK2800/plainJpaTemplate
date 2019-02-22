@@ -7,6 +7,3 @@ cache:
         
 script: 
     - mvn verify -P testLocalhost
-    
-# after_success:
-#    - mvn tomcat7:deploy -P deployRemote 
